@@ -17,6 +17,7 @@ Tampilan: HTML/CSS (Tanpa framework CSS)
 #  Struktur Folder Proyek
 Proyek ini memiliki struktur folder yang rapi dan terorganisir untuk memisahkan logika (kelas), tampilan (template), dan modul (konten halaman).
 
+```
 labweb11/
 ├── class/
 │   ├── Database.php      # Class untuk koneksi dan operasi database (CRUD)
@@ -34,6 +35,7 @@ labweb11/
     ├── footer.php        # Bagian bawah HTML (penutup tag body/html)
     ├── header.php        # Bagian atas HTML (metadata, CSS, pembuka tag body)
     └── sidebar.php       # Menu navigasi samping
+```
 
 #  Konfigurasi Server (Wajib)
 Karena aplikasi menggunakan URL cantik (/artikel/index), Anda harus memastikan Apache di XAMPP Anda dikonfigurasi dengan benar.
